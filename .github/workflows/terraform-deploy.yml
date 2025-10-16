@@ -1,5 +1,6 @@
 name: Terraform AWS Deployment
 
+
 on:
   push:
     branches:
@@ -14,10 +15,13 @@ on:
       - 'terraform/**'
   workflow_dispatch:  # Manuelle Ausführung
 
+
 # Umgebungsvariablen auf Workflow-Ebene
 env:
+  environment: AWS_Terraform
   TF_VERSION: '1.6.0'
   AWS_REGION: ${{ vars.AWS_REGION }}
+
 
 jobs:
   terraform-plan:
