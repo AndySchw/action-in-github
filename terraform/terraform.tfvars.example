@@ -1,0 +1,24 @@
+# ============================================
+# Terraform Variables - Beispiel-Konfiguration
+# ============================================
+#
+# WICHTIG: Diese Datei ist ein BEISPIEL!
+# Für die Nutzung:
+# 1. Kopiere diese Datei zu 'terraform.tfvars'
+# 2. Passe die Werte an
+# 3. terraform.tfvars NIEMALS committen! (steht in .gitignore)
+#
+# Für GitHub Actions werden die Werte über Secrets übergeben!
+# ============================================
+
+aws_region    = "eu-central-1"
+project_name  = "github-actions-demo"
+environment   = "dev"
+instance_type = "t2.micro"
+
+# AMI ID für Ubuntu 22.04 LTS in eu-central-1
+ami_id = "ami-0a628e1e89aaedf80"
+
+# Optional: SSH Public Key (leer lassen wenn kein SSH gewünscht)
+# ssh_public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC..."
+ssh_public_key = ""
