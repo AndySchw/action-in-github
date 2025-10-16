@@ -26,7 +26,7 @@ variable "ami_id" {
   description = "AMI ID für EC2-Instanz (Ubuntu 22.04 LTS)"
   type        = string
   # Ubuntu 22.04 LTS in eu-central-1
-  default     = "ami-0a628e1e89aaedf80"
+  default     = "ami-0a716d3f3b16d290c"
 
   # Andere Regionen (auskommentiert):
   # us-east-1: ami-0866a3c8686eaeeba

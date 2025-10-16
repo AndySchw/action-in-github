@@ -16,8 +16,6 @@ on:
   workflow_dispatch:  # Manuelle Ausführung
 
 
-# Umgebungsvariablen auf Workflow-Ebene
-
 
 
 jobs:
