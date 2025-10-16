@@ -203,7 +203,7 @@ locals {
     echo "✅ Nginx installed and configured successfully!"
   EOF
 }
-
+# Funktionier JETZT!!!!!!
 # EC2-Instanz - Der Webserver
 resource "aws_instance" "web" {
   ami           = var.ami_id
